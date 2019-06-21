@@ -6,6 +6,13 @@
 
 ---
 
+### 实例
+
+
+
+---
+
+
 ### 算法介绍
 
 总体流程如下图所示，
@@ -48,5 +55,3 @@
 L2距离（欧式距离)、切比雪夫距离，而是 Hellinger distance，为了的是消除某些桶上峰值的影响，运算过程是先取的平方根，再算 L2 距离，如下
 
 <img src="https://raw.githubusercontent.com/KangCai/Learned-KeyShapes-for-SBIR/master/images/doc/7.png"/>
-
----
