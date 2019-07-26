@@ -28,8 +28,8 @@ class KmeansModel(object):
             old_assignments = assignments
             # New assignments
             assignments = self._assign_points(x, centers)
-            print(count, assignments, old_assignments)
-        return zip(assignments, x)
+            # print(count, assignments, old_assignments)
+        return tuple(zip(assignments.astype(int), x)), centers
 
     def _update_centers(self, x, k, assignments):
         # Statistic
