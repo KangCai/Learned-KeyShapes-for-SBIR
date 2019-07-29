@@ -33,38 +33,38 @@ def _PatchDaisyGeneration():
             if not target_sketch_image:
                 break
             image_abs_path = os.path.join(DATASET_PNG_PATH, target_sketch_image)
-            image_array = scipy.misc.imread(image_abs_path)
-            # plt.imshow(image_array, cmap ='gray')
-            # plt.show()
-            image_array = scipy.misc.imresize(image_array, size=(W, H))
-            # plt.imshow(image_array, cmap ='gray')
-            # plt.show()
-            image_row, image_col = image_array.shape
-            # Extract patch from image
-            N_ = 50
-            stroke_points = stroke_points_detection.GetStrokePointsHarris(image_array, N_)
-            # print('Count of detected stroke points is %r/%r' % (len(stroke_points), N_))
-            # print(stroke_points)
-            (filename, extension) = os.path.splitext(target_sketch_image)
-            for p_idx, stroke_point in enumerate(stroke_points):
-                x, y, _ = stroke_point
-                x_l, x_r, y_l, y_r = x - int(PATCH_SIZE / 2), x + int(PATCH_SIZE / 2), y - int(
-                    PATCH_SIZE / 2), y + int(PATCH_SIZE / 2)
-                if x_l < 0 or x_r >= image_row or y_l < 0 or y_r >= image_col:
-                    continue
-                patch = image_array[x_l:x_r + 1, y_l:y_r + 1]
-                daisy_descriptor = daisy(patch, rings=2)
-                # Save image patch into file
-                patch_file_path = os.path.join(SAVE_PATCH_PATH, filename.replace('/', '_')+'_%d%s'%(p_idx, extension))
-                scipy.misc.imsave(patch_file_path, patch)
-                data.append((daisy_descriptor[0][0], patch_file_path))
-                total_patch += 1
-            total_count += 1
-            if total_count % 100 == 0:
-                print('%r files processed, %r patches generated, %ds cost' % (total_count, total_patch, int(time.clock() - t_start)))
-            # 先测试一部分文件
-            # if total_count == 10:
-            #     break
+            try:
+                image_array = scipy.misc.imread(image_abs_path)
+                # plt.imshow(image_array, cmap ='gray')
+                # plt.show()
+                image_array = scipy.misc.imresize(image_array, size=(W, H))
+                # plt.imshow(image_array, cmap ='gray')
+                # plt.show()
+                image_row, image_col = image_array.shape
+                # Extract patch from image
+                N_ = 50
+                stroke_points = stroke_points_detection.GetStrokePointsHarris(image_array, N_)
+                # print('Count of detected stroke points is %r/%r' % (len(stroke_points), N_))
+                # print(stroke_points)
+                (filename, extension) = os.path.splitext(target_sketch_image)
+                for p_idx, stroke_point in enumerate(stroke_points):
+                    x, y, _ = stroke_point
+                    x_l, x_r, y_l, y_r = x - int(PATCH_SIZE / 2), x + int(PATCH_SIZE / 2), y - int(
+                        PATCH_SIZE / 2), y + int(PATCH_SIZE / 2)
+                    if x_l < 0 or x_r >= image_row or y_l < 0 or y_r >= image_col:
+                        continue
+                    patch = image_array[x_l:x_r + 1, y_l:y_r + 1]
+                    daisy_descriptor = daisy(patch, rings=2)
+                    # Save image patch into file
+                    patch_file_path = os.path.join(SAVE_PATCH_PATH, filename.replace('/', '_')+'_%d%s'%(p_idx, extension))
+                    scipy.misc.imsave(patch_file_path, patch)
+                    data.append((daisy_descriptor[0][0], patch_file_path))
+                    total_patch += 1
+                total_count += 1
+                if total_count % 100 == 0:
+                    print('%r files processed, %r patches generated, %ds cost' % (total_count, total_patch, int(time.clock() - t_start)))
+            except Exception as e:
+                print(e, image_abs_path)
     return data
 
 def _Cluster(data):
@@ -73,7 +73,6 @@ def _Cluster(data):
     K = 150
     cluster_res, centers = model_kmeans.cluster(np.array(feature_list), K)
     centers_list = [list(i) for i in centers]
-    print(centers_list)
     with open(os.path.join(SAVE_PATCH_CLUSTER_CENTER_PATH, 'cluster_centers.txt'), 'w+') as f:
         f.write(str(centers_list))
     from collections import defaultdict
