@@ -19,7 +19,7 @@ def GenFeatures():
     file_list = os.listdir(PATCH_DIR)
     t_start = time.clock()
     data = []
-    for i in range(N):
+    for i in range(min(len(file_list), N)):
         try:
             (filename, extension) = os.path.splitext(file_list[i])
             if extension != '.png':

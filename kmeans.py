@@ -2,6 +2,7 @@
 
 import numpy as np
 import random
+import time
 
 class KmeansModel(object):
 
@@ -20,6 +21,7 @@ class KmeansModel(object):
         assignments = self._assign_points(x, centers)
         old_assignments = None
         count = 0
+        t1 = time.clock()
         while (assignments != old_assignments).any():
             count += 1
             # New centers
@@ -29,7 +31,7 @@ class KmeansModel(object):
             # New assignments
             assignments = self._assign_points(x, centers)
             # print(count, assignments, old_assignments)
-            print('Kmeans iteration %r %r'%(count, np.sum(assignments != old_assignments)))
+            print('Kmeans iteration %r %r, cost time %r s'%(count, np.sum(assignments != old_assignments), int(time.clock()-t1)))
             if save_file:
                 with open(save_file, 'w+') as fw:
                     fw.write(str(centers))
