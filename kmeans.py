@@ -5,7 +5,7 @@ import random
 
 class KmeansModel(object):
 
-    def cluster(self, x, k):
+    def cluster(self, x, k, save_file=None):
         """
         x: shape(n, d)
         :param x:
@@ -29,6 +29,11 @@ class KmeansModel(object):
             # New assignments
             assignments = self._assign_points(x, centers)
             # print(count, assignments, old_assignments)
+            print('Kmeans iteration %r %r'%(count, np.sum(assignments != old_assignments)))
+            if save_file:
+                with open(save_file, 'w+') as fw:
+                    fw.write(str(centers))
+                print('Save file done.')
         return tuple(zip(assignments.astype(int), x)), centers
 
     def _update_centers(self, x, k, assignments):

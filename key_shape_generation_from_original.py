@@ -6,6 +6,7 @@ import re
 import os
 import scipy.misc
 from skimage.feature import daisy
+from sklearn.cluster import KMeans
 import time
 import matplotlib.pyplot as plt
 
