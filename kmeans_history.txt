@@ -1,0 +1,561 @@
+C:\Users\caikang\AppData\Local\Programs\Python\Python35\python.exe D:/game/G78/AI/Learned-KeyShapes-for-SBIR/key_shape_generation_from_patch.py
+(929890, 136)
+Kmeans iteration 1 229416, cost time 1423 s
+Save file done.
+Kmeans iteration 2 139544, cost time 2832 s
+Save file done.
+Kmeans iteration 3 103408, cost time 4233 s
+Save file done.
+Kmeans iteration 4 81655, cost time 5624 s
+Save file done.
+Kmeans iteration 5 65191, cost time 7006 s
+Save file done.
+Kmeans iteration 6 53533, cost time 8378 s
+Save file done.
+Kmeans iteration 7 45259, cost time 9744 s
+Save file done.
+Kmeans iteration 8 39203, cost time 11097 s
+Save file done.
+Kmeans iteration 9 35165, cost time 12446 s
+Save file done.
+Kmeans iteration 10 31971, cost time 13783 s
+Save file done.
+Kmeans iteration 11 29197, cost time 15115 s
+Save file done.
+Kmeans iteration 12 26742, cost time 16437 s
+Save file done.
+Kmeans iteration 13 24844, cost time 17745 s
+Save file done.
+Kmeans iteration 14 22768, cost time 19052 s
+Save file done.
+Kmeans iteration 15 21222, cost time 20349 s
+Save file done.
+Kmeans iteration 16 19736, cost time 21639 s
+Save file done.
+Kmeans iteration 17 18655, cost time 22919 s
+Save file done.
+Kmeans iteration 18 17643, cost time 24198 s
+Save file done.
+Kmeans iteration 19 16847, cost time 25459 s
+Save file done.
+Kmeans iteration 20 16277, cost time 26717 s
+Save file done.
+Kmeans iteration 21 15635, cost time 27964 s
+Save file done.
+Kmeans iteration 22 15027, cost time 29201 s
+Save file done.
+Kmeans iteration 23 14822, cost time 30433 s
+Save file done.
+Kmeans iteration 24 14374, cost time 31655 s
+Save file done.
+Kmeans iteration 25 13858, cost time 32867 s
+Save file done.
+Kmeans iteration 26 13087, cost time 34075 s
+Save file done.
+Kmeans iteration 27 12479, cost time 35273 s
+Save file done.
+Kmeans iteration 28 12123, cost time 36461 s
+Save file done.
+Kmeans iteration 29 11495, cost time 37644 s
+Save file done.
+Kmeans iteration 30 10734, cost time 38823 s
+Save file done.
+Kmeans iteration 31 10306, cost time 39991 s
+Save file done.
+Kmeans iteration 32 9908, cost time 41200 s
+Save file done.
+Kmeans iteration 33 9554, cost time 42430 s
+Save file done.
+Kmeans iteration 34 8952, cost time 43913 s
+Save file done.
+Kmeans iteration 35 8400, cost time 45344 s
+Save file done.
+Kmeans iteration 36 8055, cost time 46569 s
+Save file done.
+Kmeans iteration 37 7783, cost time 47984 s
+Save file done.
+Kmeans iteration 38 7393, cost time 49384 s
+Save file done.
+Kmeans iteration 39 7087, cost time 50759 s
+Save file done.
+Kmeans iteration 40 6738, cost time 52010 s
+Save file done.
+Kmeans iteration 41 6543, cost time 53251 s
+Save file done.
+Kmeans iteration 42 6355, cost time 54493 s
+Save file done.
+Kmeans iteration 43 6238, cost time 55737 s
+Save file done.
+Kmeans iteration 44 6106, cost time 56981 s
+Save file done.
+Kmeans iteration 45 5975, cost time 58264 s
+Save file done.
+Kmeans iteration 46 5926, cost time 59708 s
+Save file done.
+Kmeans iteration 47 5847, cost time 61066 s
+Save file done.
+Kmeans iteration 48 5964, cost time 62270 s
+Save file done.
+Kmeans iteration 49 6243, cost time 63445 s
+Save file done.
+Kmeans iteration 50 6118, cost time 64646 s
+Save file done.
+Kmeans iteration 51 5934, cost time 65841 s
+Save file done.
+Kmeans iteration 52 5860, cost time 67014 s
+Save file done.
+Kmeans iteration 53 5674, cost time 68187 s
+Save file done.
+Kmeans iteration 54 5782, cost time 69344 s
+Save file done.
+Kmeans iteration 55 5751, cost time 70480 s
+Save file done.
+Kmeans iteration 56 5745, cost time 71623 s
+Save file done.
+Kmeans iteration 57 5810, cost time 72728 s
+Save file done.
+Kmeans iteration 58 5568, cost time 73810 s
+Save file done.
+Kmeans iteration 59 5451, cost time 74884 s
+Save file done.
+Kmeans iteration 60 5096, cost time 75957 s
+Save file done.
+Kmeans iteration 61 5051, cost time 77024 s
+Save file done.
+Kmeans iteration 62 4898, cost time 78085 s
+Save file done.
+Kmeans iteration 63 4542, cost time 79137 s
+Save file done.
+Kmeans iteration 64 4369, cost time 80185 s
+Save file done.
+Kmeans iteration 65 4343, cost time 81232 s
+Save file done.
+Kmeans iteration 66 4290, cost time 82272 s
+Save file done.
+Kmeans iteration 67 4268, cost time 83305 s
+Save file done.
+Kmeans iteration 68 4283, cost time 84337 s
+Save file done.
+Kmeans iteration 69 4429, cost time 85363 s
+Save file done.
+Kmeans iteration 70 4455, cost time 86382 s
+Save file done.
+Kmeans iteration 71 4339, cost time 87395 s
+Save file done.
+Kmeans iteration 72 4176, cost time 88401 s
+Save file done.
+Kmeans iteration 73 4094, cost time 89399 s
+Save file done.
+Kmeans iteration 74 3940, cost time 90392 s
+Save file done.
+Kmeans iteration 75 3840, cost time 91377 s
+Save file done.
+Kmeans iteration 76 3741, cost time 92355 s
+Save file done.
+Kmeans iteration 77 3646, cost time 93327 s
+Save file done.
+Kmeans iteration 78 3621, cost time 94294 s
+Save file done.
+Kmeans iteration 79 3614, cost time 95249 s
+Save file done.
+Kmeans iteration 80 3557, cost time 96205 s
+Save file done.
+Kmeans iteration 81 3552, cost time 97160 s
+Save file done.
+Kmeans iteration 82 3551, cost time 98121 s
+Save file done.
+Kmeans iteration 83 3503, cost time 99080 s
+Save file done.
+Kmeans iteration 84 3532, cost time 100040 s
+Save file done.
+Kmeans iteration 85 3553, cost time 100999 s
+Save file done.
+Kmeans iteration 86 3462, cost time 101951 s
+Save file done.
+Kmeans iteration 87 3409, cost time 102894 s
+Save file done.
+Kmeans iteration 88 3435, cost time 103830 s
+Save file done.
+Kmeans iteration 89 3435, cost time 104758 s
+Save file done.
+Kmeans iteration 90 3439, cost time 105681 s
+Save file done.
+Kmeans iteration 91 3391, cost time 106599 s
+Save file done.
+Kmeans iteration 92 3338, cost time 107509 s
+Save file done.
+Kmeans iteration 93 3328, cost time 108415 s
+Save file done.
+Kmeans iteration 94 3500, cost time 109309 s
+Save file done.
+Kmeans iteration 95 3482, cost time 110196 s
+Save file done.
+Kmeans iteration 96 3425, cost time 111077 s
+Save file done.
+Kmeans iteration 97 3428, cost time 111951 s
+Save file done.
+Kmeans iteration 98 3175, cost time 112818 s
+Save file done.
+Kmeans iteration 99 2944, cost time 113676 s
+Save file done.
+Kmeans iteration 100 2835, cost time 114528 s
+Save file done.
+Kmeans iteration 101 2710, cost time 115375 s
+Save file done.
+Kmeans iteration 102 2629, cost time 116216 s
+Save file done.
+Kmeans iteration 103 2531, cost time 117046 s
+Save file done.
+Kmeans iteration 104 2473, cost time 117869 s
+Save file done.
+Kmeans iteration 105 2391, cost time 118685 s
+Save file done.
+Kmeans iteration 106 2332, cost time 119491 s
+Save file done.
+Kmeans iteration 107 2294, cost time 120289 s
+Save file done.
+Kmeans iteration 108 2229, cost time 121084 s
+Save file done.
+Kmeans iteration 109 2115, cost time 121868 s
+Save file done.
+Kmeans iteration 110 2167, cost time 122646 s
+Save file done.
+Kmeans iteration 111 2123, cost time 123414 s
+Save file done.
+Kmeans iteration 112 2127, cost time 124177 s
+Save file done.
+Kmeans iteration 113 2165, cost time 124932 s
+Save file done.
+Kmeans iteration 114 2156, cost time 125684 s
+Save file done.
+Kmeans iteration 115 2110, cost time 126428 s
+Save file done.
+Kmeans iteration 116 2105, cost time 127167 s
+Save file done.
+Kmeans iteration 117 2177, cost time 127900 s
+Save file done.
+Kmeans iteration 118 2089, cost time 128623 s
+Save file done.
+Kmeans iteration 119 2032, cost time 129335 s
+Save file done.
+Kmeans iteration 120 1938, cost time 130039 s
+Save file done.
+Kmeans iteration 121 1823, cost time 130736 s
+Save file done.
+Kmeans iteration 122 1716, cost time 131426 s
+Save file done.
+Kmeans iteration 123 1714, cost time 132105 s
+Save file done.
+Kmeans iteration 124 1700, cost time 132776 s
+Save file done.
+Kmeans iteration 125 1664, cost time 133444 s
+Save file done.
+Kmeans iteration 126 1655, cost time 134106 s
+Save file done.
+Kmeans iteration 127 1525, cost time 134762 s
+Save file done.
+Kmeans iteration 128 1516, cost time 135409 s
+Save file done.
+Kmeans iteration 129 1428, cost time 136049 s
+Save file done.
+Kmeans iteration 130 1368, cost time 136683 s
+Save file done.
+Kmeans iteration 131 1341, cost time 137309 s
+Save file done.
+Kmeans iteration 132 1297, cost time 137931 s
+Save file done.
+Kmeans iteration 133 1306, cost time 138547 s
+Save file done.
+Kmeans iteration 134 1278, cost time 139155 s
+Save file done.
+Kmeans iteration 135 1198, cost time 139756 s
+Save file done.
+Kmeans iteration 136 1134, cost time 140348 s
+Save file done.
+Kmeans iteration 137 1117, cost time 140928 s
+Save file done.
+Kmeans iteration 138 1032, cost time 141505 s
+Save file done.
+Kmeans iteration 139 960, cost time 142076 s
+Save file done.
+Kmeans iteration 140 930, cost time 142644 s
+Save file done.
+Kmeans iteration 141 866, cost time 143218 s
+Save file done.
+Kmeans iteration 142 832, cost time 143781 s
+Save file done.
+Kmeans iteration 143 773, cost time 144333 s
+Save file done.
+Kmeans iteration 144 748, cost time 144883 s
+Save file done.
+Kmeans iteration 145 730, cost time 145428 s
+Save file done.
+Kmeans iteration 146 704, cost time 145958 s
+Save file done.
+Kmeans iteration 147 684, cost time 146478 s
+Save file done.
+Kmeans iteration 148 603, cost time 146999 s
+Save file done.
+Kmeans iteration 149 570, cost time 147518 s
+Save file done.
+Kmeans iteration 150 570, cost time 148025 s
+Save file done.
+Kmeans iteration 151 545, cost time 148515 s
+Save file done.
+Kmeans iteration 152 509, cost time 148997 s
+Save file done.
+Kmeans iteration 153 482, cost time 149473 s
+Save file done.
+Kmeans iteration 154 478, cost time 149941 s
+Save file done.
+Kmeans iteration 155 445, cost time 150401 s
+Save file done.
+Kmeans iteration 156 446, cost time 150854 s
+Save file done.
+Kmeans iteration 157 458, cost time 151300 s
+Save file done.
+Kmeans iteration 158 433, cost time 151739 s
+Save file done.
+Kmeans iteration 159 420, cost time 152173 s
+Save file done.
+Kmeans iteration 160 376, cost time 152598 s
+Save file done.
+Kmeans iteration 161 372, cost time 153014 s
+Save file done.
+Kmeans iteration 162 333, cost time 153421 s
+Save file done.
+Kmeans iteration 163 320, cost time 153819 s
+Save file done.
+Kmeans iteration 164 335, cost time 154211 s
+Save file done.
+Kmeans iteration 165 330, cost time 154594 s
+Save file done.
+Kmeans iteration 166 346, cost time 154971 s
+Save file done.
+Kmeans iteration 167 337, cost time 155340 s
+Save file done.
+Kmeans iteration 168 354, cost time 155701 s
+Save file done.
+Kmeans iteration 169 380, cost time 156052 s
+Save file done.
+Kmeans iteration 170 389, cost time 156398 s
+Save file done.
+Kmeans iteration 171 391, cost time 156734 s
+Save file done.
+Kmeans iteration 172 378, cost time 157060 s
+Save file done.
+Kmeans iteration 173 409, cost time 157375 s
+Save file done.
+Kmeans iteration 174 442, cost time 157679 s
+Save file done.
+Kmeans iteration 175 437, cost time 157976 s
+Save file done.
+Kmeans iteration 176 427, cost time 158260 s
+Save file done.
+Kmeans iteration 177 453, cost time 158541 s
+Save file done.
+Kmeans iteration 178 412, cost time 158809 s
+Save file done.
+Kmeans iteration 179 443, cost time 159066 s
+Save file done.
+Kmeans iteration 180 436, cost time 159312 s
+Save file done.
+Kmeans iteration 181 404, cost time 159544 s
+Save file done.
+Kmeans iteration 182 436, cost time 159765 s
+Save file done.
+Kmeans iteration 183 414, cost time 159977 s
+Save file done.
+Kmeans iteration 184 385, cost time 160177 s
+Save file done.
+Kmeans iteration 185 384, cost time 160366 s
+Save file done.
+Kmeans iteration 186 410, cost time 160546 s
+Save file done.
+Kmeans iteration 187 438, cost time 160718 s
+Save file done.
+Kmeans iteration 188 428, cost time 160879 s
+Save file done.
+Kmeans iteration 189 435, cost time 161033 s
+Save file done.
+Kmeans iteration 190 463, cost time 161178 s
+Save file done.
+Kmeans iteration 191 511, cost time 161311 s
+Save file done.
+Kmeans iteration 192 523, cost time 161437 s
+Save file done.
+Kmeans iteration 193 502, cost time 161558 s
+Save file done.
+Kmeans iteration 194 504, cost time 161672 s
+Save file done.
+Kmeans iteration 195 512, cost time 161782 s
+Save file done.
+Kmeans iteration 196 507, cost time 161887 s
+Save file done.
+Kmeans iteration 197 493, cost time 161986 s
+Save file done.
+Kmeans iteration 198 447, cost time 162083 s
+Save file done.
+Kmeans iteration 199 391, cost time 162176 s
+Save file done.
+Kmeans iteration 200 382, cost time 162265 s
+Save file done.
+Kmeans iteration 201 380, cost time 162347 s
+Save file done.
+Kmeans iteration 202 355, cost time 162426 s
+Save file done.
+Kmeans iteration 203 312, cost time 162502 s
+Save file done.
+Kmeans iteration 204 289, cost time 162577 s
+Save file done.
+Kmeans iteration 205 281, cost time 162651 s
+Save file done.
+Kmeans iteration 206 278, cost time 162720 s
+Save file done.
+Kmeans iteration 207 266, cost time 162788 s
+Save file done.
+Kmeans iteration 208 262, cost time 162854 s
+Save file done.
+Kmeans iteration 209 244, cost time 162916 s
+Save file done.
+Kmeans iteration 210 244, cost time 162975 s
+Save file done.
+Kmeans iteration 211 238, cost time 163033 s
+Save file done.
+Kmeans iteration 212 243, cost time 163090 s
+Save file done.
+Kmeans iteration 213 234, cost time 163149 s
+Save file done.
+Kmeans iteration 214 205, cost time 163206 s
+Save file done.
+Kmeans iteration 215 204, cost time 163264 s
+Save file done.
+Kmeans iteration 216 211, cost time 163321 s
+Save file done.
+Kmeans iteration 217 228, cost time 163378 s
+Save file done.
+Kmeans iteration 218 235, cost time 163436 s
+Save file done.
+Kmeans iteration 219 252, cost time 163494 s
+Save file done.
+Kmeans iteration 220 209, cost time 163552 s
+Save file done.
+Kmeans iteration 221 173, cost time 163610 s
+Save file done.
+Kmeans iteration 222 149, cost time 163668 s
+Save file done.
+Kmeans iteration 223 128, cost time 163726 s
+Save file done.
+Kmeans iteration 224 117, cost time 163784 s
+Save file done.
+Kmeans iteration 225 129, cost time 163844 s
+Save file done.
+Kmeans iteration 226 114, cost time 163902 s
+Save file done.
+Kmeans iteration 227 119, cost time 163960 s
+Save file done.
+Kmeans iteration 228 109, cost time 164017 s
+Save file done.
+Kmeans iteration 229 114, cost time 164075 s
+Save file done.
+Kmeans iteration 230 114, cost time 164133 s
+Save file done.
+Kmeans iteration 231 117, cost time 164192 s
+Save file done.
+Kmeans iteration 232 104, cost time 164250 s
+Save file done.
+Kmeans iteration 233 92, cost time 164308 s
+Save file done.
+Kmeans iteration 234 100, cost time 164365 s
+Save file done.
+Kmeans iteration 235 118, cost time 164422 s
+Save file done.
+Kmeans iteration 236 134, cost time 164480 s
+Save file done.
+Kmeans iteration 237 146, cost time 164537 s
+Save file done.
+Kmeans iteration 238 171, cost time 164595 s
+Save file done.
+Kmeans iteration 239 142, cost time 164653 s
+Save file done.
+Kmeans iteration 240 144, cost time 164711 s
+Save file done.
+Kmeans iteration 241 101, cost time 164769 s
+Save file done.
+Kmeans iteration 242 88, cost time 164827 s
+Save file done.
+Kmeans iteration 243 95, cost time 164885 s
+Save file done.
+Kmeans iteration 244 74, cost time 164943 s
+Save file done.
+Kmeans iteration 245 63, cost time 165000 s
+Save file done.
+Kmeans iteration 246 53, cost time 165058 s
+Save file done.
+Kmeans iteration 247 57, cost time 165116 s
+Save file done.
+Kmeans iteration 248 52, cost time 165174 s
+Save file done.
+Kmeans iteration 249 56, cost time 165231 s
+Save file done.
+Kmeans iteration 250 50, cost time 165290 s
+Save file done.
+Kmeans iteration 251 47, cost time 165348 s
+Save file done.
+Kmeans iteration 252 52, cost time 165406 s
+Save file done.
+Kmeans iteration 253 48, cost time 165464 s
+Save file done.
+Kmeans iteration 254 43, cost time 165523 s
+Save file done.
+Kmeans iteration 255 45, cost time 165581 s
+Save file done.
+Kmeans iteration 256 43, cost time 165639 s
+Save file done.
+Kmeans iteration 257 36, cost time 165697 s
+Save file done.
+Kmeans iteration 258 38, cost time 165755 s
+Save file done.
+Kmeans iteration 259 37, cost time 165813 s
+Save file done.
+Kmeans iteration 260 50, cost time 165870 s
+Save file done.
+Kmeans iteration 261 48, cost time 165928 s
+Save file done.
+Kmeans iteration 262 35, cost time 165986 s
+Save file done.
+Kmeans iteration 263 45, cost time 166044 s
+Save file done.
+Kmeans iteration 264 39, cost time 166101 s
+Save file done.
+Kmeans iteration 265 25, cost time 166159 s
+Save file done.
+Kmeans iteration 266 15, cost time 166217 s
+Save file done.
+Kmeans iteration 267 11, cost time 166275 s
+Save file done.
+Kmeans iteration 268 9, cost time 166332 s
+Save file done.
+Kmeans iteration 269 6, cost time 166391 s
+Save file done.
+Kmeans iteration 270 9, cost time 166449 s
+Save file done.
+Kmeans iteration 271 12, cost time 166507 s
+Save file done.
+Kmeans iteration 272 13, cost time 166565 s
+Save file done.
+Kmeans iteration 273 13, cost time 166623 s
+Save file done.
+Kmeans iteration 274 8, cost time 166681 s
+Save file done.
+Kmeans iteration 275 3, cost time 166738 s
+Save file done.
+Kmeans iteration 276 2, cost time 166796 s
+Save file done.
+Kmeans iteration 277 1, cost time 166854 s
+Save file done.
+Kmeans iteration 278 1, cost time 166911 s
+Save file done.
+Kmeans iteration 279 0, cost time 166969 s
+Save file done.
+

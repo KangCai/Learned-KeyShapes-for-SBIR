@@ -11,6 +11,7 @@ class KmeansModel(object):
         x: shape(n, d)
         :param x:
         :param k:
+        :param save_file:
         :return:
         """
         row, col = x.shape
@@ -33,8 +34,9 @@ class KmeansModel(object):
             # print(count, assignments, old_assignments)
             print('Kmeans iteration %r %r, cost time %r s'%(count, np.sum(assignments != old_assignments), int(time.clock()-t1)))
             if save_file:
+                centers_list = [list(i) for i in centers]
                 with open(save_file, 'w+') as fw:
-                    fw.write(str(centers))
+                    fw.write(str(centers_list))
                 print('Save file done.')
         return tuple(zip(assignments.astype(int), x)), centers
 
