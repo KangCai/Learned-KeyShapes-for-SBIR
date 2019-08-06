@@ -32,9 +32,6 @@ def GenFeatures():
         save_file_path = os.path.join(consts.SAVE_PATCH_CLUSTER_CENTER_PATH, consts.FEATURE_SAVE_NAME + str(c) + '.txt')
         with open(save_file_path, 'w+') as f:
             f.write(str(data))
-    # with open(save_file_path) as f:
-    #     a = f.read()
-    #     print(len(eval(a)))
 
 def Cluster():
     import util_read_features
